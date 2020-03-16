@@ -27,6 +27,9 @@ yarn start
 
 Web app will be available on http://localhost:3000/ by default
 
+### Using example
+![Example](https://github.com/olgakiba18796/Travel-Track/blob/master/public/%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D1%8C%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202020-03-16%20%D0%B2%2019.05.46.gif)
+
 ### Functionality
 
 - Registration and login
