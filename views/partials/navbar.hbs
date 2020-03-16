@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="/stylesheets/navbar.css">
+
+<script defer src="./js/index.js"></script>
+
+<nav>
+  <ul class="list">
+
+    {{#if user}}
+    <li><a href="/">Main Page</a></li>
+    <li class="map"><a name="map" href="/{{user._id}}/map">My map</a></li>
+    <li><a href="/{{user._id}}">{{user.username}}</a></li>
+
+    <li class="login"><a name="login" href="/login/out">Logout</a></li>
+
+    {{else}}
+    <li class="login"><a name="logout" href="/login">Login</a></li>
+    {{/if}}
+  </ul>
+</nav>

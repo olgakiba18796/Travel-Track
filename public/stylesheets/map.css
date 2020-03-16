@@ -1,0 +1,45 @@
+#map {
+  margin: 30px 50px;
+  height: 450px;
+  width: 95%;
+  border: 3px solid rgb(255, 181, 197);
+  border-radius: 20px;
+}
+h1 {
+  font-size: 50px;
+  color: rgb(255, 181, 197);
+  text-align: center;
+  text-shadow: black 0 0 4px;
+}
+@import url(https://fonts.googleapis.com/css?family=Days+One);
+body {
+  background: #38495a;
+  overflow: hidden;
+}
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: #fff;
+}
+.cosmo1 {
+  position: absolute;
+  top: -10%;
+  left: -10%;
+  opacity: 0.8;
+}
+.cosmo2 {
+  position: absolute;
+  top: -22%;
+  left: -22%;
+}
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font: 60pt "Days One";
+  color: #f0f0f0;
+  text-shadow: -0.03em 0 red, 0.03em 0 cyan;
+}

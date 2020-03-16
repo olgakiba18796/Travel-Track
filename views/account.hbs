@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="/stylesheets/account.css">
+<script defer bsrc="/js/index.js"></script>
+
+{{>navbar}}
+
+<div class="container">
+
+  <h1>
+    {{user.username}} has already been to:
+  </h1>
+
+
+  <ul class="ul">
+    {{#each places}}
+    <form action="/{{_id}}" name="delete">
+      <li>
+        <p>
+          {{name}}<button type="submit">Delete</button></p>
+      </li>
+    </form>
+    {{/each }}
+
+  </ul>
+
+
+  <div class="wrap">
+    <canvas id="sakura"></canvas>
+  </div>
+
+
+
+</div>
